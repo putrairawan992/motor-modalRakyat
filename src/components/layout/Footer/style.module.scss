@@ -1,0 +1,41 @@
+@import 'styles/_colors.var';
+
+.container {
+  background: $white-2;
+  padding: 2rem 0;
+  border-top: 1px solid $gray-5;
+  margin-top: 3rem;
+}
+
+.navbar {
+  border-top: 1px solid $gray-5;
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.menu-item {
+  color: $gray-2;
+  padding-right: 32px;
+  line-height: 48px;
+
+  &:hover {
+    color: $gray-0;
+  }
+}
+
+.socmed {
+  color: $white-1;
+  background: $gray-1;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  margin-right: 1rem;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}

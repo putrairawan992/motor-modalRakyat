@@ -1,0 +1,32 @@
+@import 'styles/_colors.var';
+@import 'styles/_typography.var';
+
+.container {
+  border-radius: 8px;
+  margin-bottom: 32px;
+  border: 1px solid $gray-5;
+  overflow: hidden;
+}
+
+.header {
+  background: $gray-5;
+  padding: 18px;
+  font-weight: $font-500;
+}
+
+.information {
+  padding: 1rem;
+
+  .name {
+    font-weight: $font-500;
+  }
+
+  .avatar {
+    width: 50%;
+    padding-right: 10px;
+  }
+
+  .identity {
+    width: 50%;
+  }
+}

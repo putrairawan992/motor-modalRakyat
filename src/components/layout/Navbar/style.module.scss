@@ -1,0 +1,25 @@
+@import 'styles/_colors.var';
+@import 'styles/_typography.var';
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: $white-1;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid $gray-5;
+}
+
+.logo {
+  width: 160px;
+}
+
+.menu-item {
+  color: $gray-2;
+  padding-right: 32px;
+  line-height: 48px;
+
+  &:hover {
+    color: $gray-0;
+  }
+}

@@ -1,0 +1,58 @@
+@import 'styles/_colors.var';
+@import 'styles/_typography.var';
+
+.container {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 4px;
+  border: 1px solid $gray-4;
+  background: $white-3;
+  cursor: pointer;
+
+  img {
+    height: 130px;
+    object-fit: cover;
+  }
+}
+
+.title {
+  font-weight: $font-500;
+  margin: 8px 0;
+}
+
+.brand {
+  color: $gray-1;
+}
+
+.name {
+  color: $red-1;
+}
+
+.detail-items {
+  display: flex;
+  align-items: center;
+  color: $gray-3;
+
+  span {
+    margin-left: 4px;
+  }
+}
+
+.price {
+  font-weight: $font-500;
+  color: $green-1;
+  margin: 8px 0;
+}
+
+.rating {
+  display: flex;
+  justify-content: flex-end;
+
+  [class~=full] {
+    color: #fce851;
+  }
+
+  [class~=empty] {
+    color: $gray-2;
+  }
+}

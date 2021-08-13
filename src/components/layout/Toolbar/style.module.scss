@@ -1,0 +1,19 @@
+@import 'styles/_colors.var';
+@import 'styles/_typography.var';
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: $gray-5;
+  height: 48px;
+}
+
+.menu-item {
+  color: $gray-2;
+  padding-right: 24px;
+  line-height: 48px;
+
+  &:hover {
+    color: $gray-0;
+  }
+}

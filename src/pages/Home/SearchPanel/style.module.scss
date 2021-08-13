@@ -1,0 +1,49 @@
+@import 'styles/_colors.var';
+@import 'styles/_typography.var';
+
+.btn-tab {
+  display: inline-flex;
+  padding: 1rem 1.5rem;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  align-items: center;
+  background: $gray-5;
+  color: $gray-2;
+  font-weight: $font-500;
+  margin-right: 8px;
+  cursor: pointer;
+
+  &.active {
+    color: $white-1;
+    background: $red-1;
+    cursor: default;
+  }
+}
+
+.search-form {
+  color: $white-1;
+  background: $red-1;
+  width: 100%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.boxed {
+  padding: 1rem 9px;
+}
+
+.border {
+  border-top: dashed 2px $red-2;
+  padding-top: 28px;
+}
+
+.adv-search {
+  padding: 6px 2rem;
+  font-size: 12px;
+  color: $gray-2;
+  background: $gray-4;
+  display: inline-block;
+  margin-left: 2rem;
+  margin-bottom: 32px;
+}

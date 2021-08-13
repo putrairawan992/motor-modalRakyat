@@ -1,0 +1,90 @@
+@import 'styles/_colors.var';
+@import 'styles/_typography.var';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  border-radius: 4px;
+  border: 1px solid $gray-4;
+  background: $white-2;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: $gray-4;
+  border-bottom: 2px dashed $gray-3;
+
+  h1 {
+    font-size: 18px;
+    margin-bottom: 0;
+    color: $gray-1;
+  }
+}
+
+.title {
+  font-weight: $font-500;
+  margin: 8px 0;
+}
+
+.brand {
+  color: $gray-1;
+}
+
+.name {
+  color: $red-1;
+}
+
+.detail-items {
+  display: flex;
+  align-items: center;
+  color: $gray-2;
+
+  span {
+    margin-left: 4px;
+  }
+}
+
+.price {
+  font-weight: $font-500;
+  color: $green-1;
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.rating {
+  display: flex;
+  justify-content: flex-end;
+
+  [class~=full] {
+    color: #fce851;
+  }
+
+  [class~=empty] {
+    color: $gray-2;
+  }
+}
+
+.list-image {
+  display: flex;
+  gap: 10px;
+
+  [class~=image-item] {
+    flex: 1 1 0;
+
+    img {
+      object-fit: cover;
+    }
+  }
+}
+
+.detail {
+  display: flex;
+  background: $white-3;
+  padding: 1rem;
+}

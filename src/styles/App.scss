@@ -1,0 +1,16 @@
+$theme-colors: (
+  "success": #41b143,
+  "danger": #d94949,
+  "primary": #4290d8,
+  "warning": #e8d032
+);
+
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+}
